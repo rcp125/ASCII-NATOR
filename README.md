@@ -26,11 +26,11 @@ The general algorithm is as follows:
   2) Convert image to greyscale
   3) Resize the image to match the ASCII height & width
   4) Traversing through each pixel in the image, do the following:
-    * Calculate the luminance value in the greyscale image
-    * Normalize the value so that 255 (white) corresponds to the last index in
+  * Calculate the luminance value in the greyscale image
+  * Normalize the value so that 255 (white) corresponds to the last index in
        the chars array and 0 (black) corresponds to the first index in array (and for
        any other value in between)
-    * Output the corresponding ASCII character
+  * Output the corresponding ASCII character
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
